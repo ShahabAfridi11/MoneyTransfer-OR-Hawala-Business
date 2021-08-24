@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout_icon"
+        android:title="Logout"
+        />
+
+    <item android:id="@+id/add_branch"
+        android:icon="@drawable/add_branch_icon"
+        android:title="Add Branch"
+        />
+
+    <item android:id="@+id/admins"
+        android:title="Admins"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/admin_control"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Requested Admins"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/update_exchange_rates"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Update Exchange Rates"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/contactUS"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/exit_application"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="Exit"
+        app:showAsAction="never"/>
+
+</menu>

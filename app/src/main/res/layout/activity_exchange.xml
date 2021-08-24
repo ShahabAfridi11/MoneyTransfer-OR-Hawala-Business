@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activities.Exchange">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="@drawable/b7">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_margin="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="800dp"
+                        android:orientation="vertical"
+                        android:weightSum="22">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".5"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:text="Exchange"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Dhr To Pkr:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/dhr_to_pkr_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Pkr To Dhr:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/pkr_to_dhr_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Dollar To Pkr:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/dollar_to_pkr_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:digits="0123456789."
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Pkr To Dollar:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/pkr_to_dollar_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Euro To Pkr:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/euro_to_pkr_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Pkr To Euro:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/pkr_to_euro_et_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="rate"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Money Detail:"
+                            android:gravity="bottom"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/amount_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:hint="Enter Amount"
+                            android:paddingLeft="15dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15sp"
+                            android:inputType="number"
+                            android:digits="0123456789."
+                            android:singleLine="true"/>
+
+                        <Spinner
+                            android:id="@+id/currency_type_spinner_e"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:weightSum="10">
+
+                            <TextView
+                                android:id="@+id/total_amount_e"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:hint="Total Amount"
+                                android:paddingLeft="15dp"
+                                android:textColor="#fff"
+                                android:textColorHint="#fff"
+                                android:paddingTop="12dp"
+                                android:textSize="15sp"
+                                android:singleLine="true"/>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"/>
+
+
+                        <Button
+                            android:id="@+id/exchanged_btn"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:text="Calculate"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            android:textAllCaps="false"
+                            style="@style/Widget.AppCompat.Button.Colored"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

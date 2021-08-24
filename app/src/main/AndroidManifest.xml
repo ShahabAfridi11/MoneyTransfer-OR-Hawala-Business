@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moneytransfer">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.activities.TransactionProfile"></activity>
+        <activity android:name=".activities.activities.PayTransactionProfile" />
+        <activity android:name=".activities.activities.UpdateExchangeRates" />
+        <activity android:name=".activities.activities.Transactions" />
+        <activity android:name=".activities.activities.PayTransaction" />
+        <activity android:name=".activities.activities.GenerateTransaction" />
+        <activity android:name=".activities.activities.Exchange" />
+        <activity android:name=".activities.activities.CurrentAdmins" />
+        <activity android:name=".activities.activities.AdminDetail" />
+        <activity android:name=".activities.activities.AdminsControl" />
+        <activity android:name=".activities.activities.AdminHome"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activities.activities.Profile" />
+        <activity android:name=".activities.activities.Home"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activities.activities.SignUpScreen" />
+        <activity android:name=".activities.activities.LoginScreen" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

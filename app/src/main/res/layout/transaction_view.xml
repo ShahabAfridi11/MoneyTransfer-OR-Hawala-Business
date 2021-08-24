@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/layout_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:weightSum="10">
+
+
+                <LinearLayout
+                    android:id="@+id/detail_t"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/p_transaction_sname_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sender Name"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/transaction_rname_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="15dp"
+                        android:text="Receiver Name"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/transaction_amount_t"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Amout"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

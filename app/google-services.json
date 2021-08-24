@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589104371594",
+    "project_id": "moneytransfer-e297b",
+    "storage_bucket": "moneytransfer-e297b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589104371594:android:87b19b3f2f471417f89a73",
+        "android_client_info": {
+          "package_name": "com.example.moneytransfer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589104371594-8pimimtplavd25f20tb1jbm5aauh3uao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC49iTI8oZ-esTLAiIC5ZJuToEbu2Ujeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589104371594-8pimimtplavd25f20tb1jbm5aauh3uao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

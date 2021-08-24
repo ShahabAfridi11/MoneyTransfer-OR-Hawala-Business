@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activities.AdminDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_margin="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="14">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/admin_profile_pic_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/logoo"
+                            android:layout_marginTop="30dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="800dp"
+                        android:orientation="vertical"
+                        android:weightSum="11">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="Admin Detail"
+                            android:gravity="center"
+                            android:textSize="25sp"/>
+
+                        <TextView
+                            android:id="@+id/firstName_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Admin Name"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:textSize="15sp" />
+
+
+                        <TextView
+                            android:id="@+id/fatherName_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Father Name"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:id="@+id/cnic_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Cnic"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:textSize="15sp"
+                            android:inputType="number"/>
+
+                        <TextView
+                            android:id="@+id/phoneNumber_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Phone Number"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"/>
+
+                        <TextView
+                            android:id="@+id/email_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Your Email"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/password_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:hint="Password"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:textSize="15sp"
+                            android:singleLine="false"
+                            android:inputType="textPassword"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4"
+                            android:weightSum="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:text="CNIC Picture:"
+                                android:paddingLeft="15dp"
+                                android:paddingTop="35dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                            <ImageView
+                                android:id="@+id/Cnic_img_view"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"
+                                android:layout_margin="10dp"
+                                android:layout_gravity="center"
+                                android:scaleType="fitXY"/>
+
+
+                        </LinearLayout>
+
+
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

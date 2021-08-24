@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activities.LoginScreen"
+    android:orientation="vertical"
+    android:background="@drawable/b7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/logoo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5.4"
+                    android:weightSum="6"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:hint="Login"
+                            android:textColor="#E61C1C"
+                            android:textColorHint="#fff"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/Username_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="2dp"
+                            android:drawableLeft="@drawable/ic_baseline_email_24"
+                            android:hint="Email"
+                            android:drawablePadding="5dp"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:textSize="20dp"
+                            android:singleLine="true"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/Password_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="2dp"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:textColor="#fff"
+                            android:textColorHint="#fff"
+                            android:drawablePadding="5dp"
+                            android:hint="Password"
+                            android:textSize="20dp"
+                            android:inputType="textPassword"
+                            android:singleLine="true"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/Login_btn"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:hint="Login"
+                            android:textSize="20dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/button_background"
+                            android:textColorHint="#fff"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/SignUp_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:text="Haven't Register yet?"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"/>
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:id="@+id/login_progress"
+                        android:layout_width="107dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        app:SpinKit_Color="@color/colorAccent" />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
